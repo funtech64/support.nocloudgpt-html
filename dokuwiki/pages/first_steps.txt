@@ -1,0 +1,14 @@
+====== First 10 Minutes After Installation ======
+  - Open the HTTPS address supplied by your installer. If your browser warns about a self-signed certificate, ask the installer owner to configure an approved domain and trusted certificate; do not ignore warnings for an unknown host.
+  - Sign in to the Chat interface with the account provisioned for you. Change any initial password promptly.
+  - Open the **Apps / Workspace** link if available. The workspace collects links; an unavailable tile does not necessarily mean an installation failed.
+  - Visit **/wiki/** on your instance, then choose [[support:start|Support — Start Here]].
+  - Confirm the chatbot can answer a simple question. You may need to select an installed model.
+  - Read [[support:models|Models]] before using cloud-backed AI. Remote models can send prompts outside your instance.
+  - Check [[support:backups|Backups]] and [[support:privacy|Privacy]] before uploading private data.
+  - Save the [[https://support.nocloudgpt.com/|online support website]] for recovery when your own instance is unavailable.
+
+===== What to send if support is needed =====
+Give your installer/support contact the product name, release version, whether you are using Lightsail, and what did or did not work. Never send a license key, password, private key, token, or full diagnostic file without reviewing it first.
+
+Next: [[support:access|Accounts and access]] | [[support:troubleshooting|Troubleshooting]].

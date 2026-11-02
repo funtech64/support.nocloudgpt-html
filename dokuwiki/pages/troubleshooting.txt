@@ -1,0 +1,17 @@
+====== Troubleshooting: First Checks ======
+^ Symptom ^ Safe first step ^
+| Website does not open | Confirm your Lightsail instance is running, the correct IP/domain is used, and HTTPS is available through the AWS firewall. |
+| Browser certificate warning | Check the address and certificate with the installer; use a trusted certificate for a custom domain. |
+| 401 / 403 | Verify the correct application credentials and permitted network. |
+| 404 | Confirm the optional stage and route exist in your installed release. |
+| 502 / 504 | The reverse proxy may be running but the application behind it is not healthy. |
+| Chat has no model | Check approved model availability and machine capacity; do not expose Ollama publicly. |
+| Planet Library missing | Available disk space may have caused it to be staged rather than downloaded. |
+| Wiki page is stale | Ask an administrator to run `sudo ncgpt-support-sync --status` and then `--sync`. |
+| Mail tile missing | Stage 11.4 is optional and may not be present. |
+| Unexpected cloud charges | Review the Lightsail resources and billing section in AWS immediately. |
+
+===== Ask for help safely =====
+Provide the release name (for example 1.0.36 Lightsail), the time of the problem, the affected feature, what you expected, and the exact **non-secret** error text. Redact passwords, tokens, license keys, private IPs if not needed, and customer information.
+
+[[support:contact|Contact support]] | [[support:access|Addresses and accounts]]

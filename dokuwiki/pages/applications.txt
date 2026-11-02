@@ -1,0 +1,12 @@
+====== Find Your Applications ======
+| **Chat** | Main HTTPS address — Open WebUI if installed. |
+| **Apps** | `/app/` on your server. |
+| **Workspace** | `/app/workspace/` when stage 45 has been installed. |
+| **DokuWiki** | `/wiki/` for local documentation. |
+| **Notes** | `/notes/` when SilverBullet is installed; may require its own login. |
+| **Planet Library** | `/wikipedia/` when enough disk space was available for the Kiwix pack. |
+| **Mailpit** | `/apps/mail/` only when the optional 11.4 mail stage is installed and access is allowed. |
+
+An icon does not guarantee that a service is running. A missing optional application can be normal. If you see **403**, your account or network may be restricted; **404** usually means the requested route is not installed or published; **502** may mean the service behind the page is unavailable.
+
+[[support:start|Support Home]] | [[support:troubleshooting|Troubleshoot apps]]

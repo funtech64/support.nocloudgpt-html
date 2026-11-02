@@ -1,0 +1,12 @@
+====== Using AI Chat ======
+  - Open your instance's main HTTPS address.
+  - Sign in.
+  - Choose an installed model, if your interface shows a model selector.
+  - Ask a short question to confirm the model responds.
+  - Avoid pasting private customer data into a cloud-backed model unless authorized.
+
+A **local model** runs using the computer's available resources. On small Lightsail instances it may be slow or unavailable. A **Jet / cloud-backed model** can be faster but uses outside services and Internet connectivity.
+
+Chat history, document upload handling, model provider policies, and retention depend on your deployment and chosen features. Ask your installer to explain them before processing sensitive information.
+
+[[support:models|Model choices]] | [[support:privacy|Privacy]]

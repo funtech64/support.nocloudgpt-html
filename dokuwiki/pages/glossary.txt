@@ -1,0 +1,25 @@
+====== NoCloudGPT Terminology ======
+^ Term ^ Plain-language meaning ^
+| **NoCloudGPT** | Company and software family. |
+| **Independent AI** | AI that you control, often using models and data on a machine you manage. It does not automatically mean every feature works offline. |
+| **terminal.glass** | The Linux software line. |
+| **COLORS.chat** | The desktop product line for Windows and macOS. |
+| **Lightsail** | Amazon Web Services virtual server hosting. Cloud computing and data-transfer charges may apply. |
+| **Instance** | Your Lightsail virtual computer. |
+| **Open WebUI** | A browser-based chat interface, when included in the installed release. |
+| **Ollama** | Software that manages and serves AI models. |
+| **Local model** | A model running on your instance or computer; performance depends on CPU, RAM, and GPU. |
+| **Jet** | A cloud-backed model/agent option; it may require Internet access and may send prompts to a provider. |
+| **Glass Agent / OpenClaw** | An agent or automation component, distinct from the chat interface. |
+| **8-Ball** | A profile/model selection component; availability depends on release. |
+| **GridStack / Workspace** | An application dashboard; it is a launcher, not a second model runtime. |
+| **DokuWiki / User Wiki** | This documentation website and, where enabled, the owner's own wiki pages. |
+| **Support namespace** | Pages named `support:...` that are refreshed from the official support GitHub repository. |
+| **SilverBullet / Notes** | A separate notes application, not the DokuWiki support library. |
+| **Planet Library / Kiwix** | Locally stored reference content, subject to disk space and installed packs. |
+| **Mailpit / Local Mail** | Optional mail capture and viewing for local services/testing; not a general-purpose outbound email provider. |
+| **Tailscale** | Private networking tool; not used by the standard 1.0.36 Lightsail path. |
+| **Stage / script** | A numbered installer component; `5.sh` installs knowledge services and `5.1.sh` provisions the documentation sync. |
+| **Sync** | Download and refresh official support pages into your wiki. It does not update software binaries. |
+
+[[support:start|Return to Support Home]]
