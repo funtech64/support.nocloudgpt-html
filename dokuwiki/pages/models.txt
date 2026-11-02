@@ -1,0 +1,11 @@
+====== Models: Local, Jet, and Planet Library ======
+**Ollama** manages available models. Your Chat interface may offer local and cloud-backed choices.
+
+  * **Local model:** workload stays on the configured machine, but may need substantial CPU, RAM, storage or a GPU.
+  * **Jet / cloud-backed model:** requests may travel to a third-party service; Internet access and provider terms can apply.
+  * **Planet Library:** a locally downloaded reference pack accessed through Kiwix. The installer chooses a pack based on free disk space, so some servers may have no pack yet.
+  * **@planet:** in supported chat configurations, a reference shortcut for searching the installed Planet Library.
+
+Use only models your system administrator has enabled. If a model is missing, request an approved installation or check whether your instance has adequate resources. Model files can consume many gigabytes.
+
+[[support:using_chat|Chat basics]] | [[support:glossary|Terminology]]

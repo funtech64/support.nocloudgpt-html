@@ -1,0 +1,8 @@
+====== Glass Agents and Automation ======
+Glass Agents are automation components based on the configured agent runtime. They can differ from the chat interface and may access tools, files, or services only after the administrator authorizes those capabilities.
+
+Start with a harmless task and review exactly what actions the agent may take. Never grant unnecessary AWS administrator access or share credentials in a prompt. For server changes, use a reviewed installation or recovery process, keep backups, and understand the costs.
+
+In the 1.0.36 Lightsail installer, agent components are separate numbered stages, with some sub-stages skipped depending on the release. Absence of an optional tool is not itself a failure.
+
+[[support:privacy|Privacy and permissions]] | [[support:contact|Request help]]

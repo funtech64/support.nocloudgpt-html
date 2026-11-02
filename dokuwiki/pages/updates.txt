@@ -1,0 +1,13 @@
+====== Updating Help Pages ======
+The support pages are published in the public [[https://github.com/funtech64/support.nocloudgpt-html/tree/main/dokuwiki/pages|NoCloudGPT support GitHub folder]].
+
+On a server with stage **5.1** installed, an administrator can use:
+
+  * `sudo ncgpt-support-sync --sync` — check GitHub and refresh the public help pages.
+  * `sudo ncgpt-support-sync --status` — show the last successful refresh and local page count.
+
+A systemd timer is planned to check automatically about once per day. An Internet outage should leave the last known support pages available. The download link on [[support:start|Support Home]] provides a ZIP containing the synced public pages.
+
+**Documentation sync is not a software upgrade.** It does not install new Ollama models, agent versions, or application binaries.
+
+If the sync tool is not found, your installer may not yet include stage 5.1. Use [[https://support.nocloudgpt.com/|online support]] meanwhile.

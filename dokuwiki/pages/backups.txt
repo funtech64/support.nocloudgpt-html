@@ -1,0 +1,14 @@
+====== Backups and Recovery ======
+Your cloud account owner is responsible for preserving data. Before major updates, confirm that backups or Lightsail snapshots exist and that you can restore them. A snapshot is useful but is not a substitute for testing a restore.
+
+Review whether your backup includes:
+  * application data and chat history;
+  * DokuWiki user content (outside the managed `support:` pages);
+  * relevant service settings;
+  * any external storage or database.
+
+Keep secrets in your approved secret manager, not inside a wiki export. The support documentation ZIP includes only public help pages; it is **not** a full instance backup.
+
+The documentation sync only replaces the managed `support:` namespace. It must not delete personal wiki pages or application data.
+
+[[support:updates|Updates]] | [[support:troubleshooting|Troubleshooting]]

@@ -1,0 +1,14 @@
+====== Getting Support ======
+For official online help, visit [[https://support.nocloudgpt.com/|support.nocloudgpt.com]].
+
+When contacting your installer or support representative, include:
+  - Product line and software version.
+  - Where the instance is hosted (for example AWS Lightsail / Ubuntu).
+  - Feature affected and the page or step where it failed.
+  - What you tried and any non-sensitive error text.
+
+**Never include:** passwords, recovery codes, license keys, cloud account access keys, SSH private keys, authentication tokens, or unredacted personal/customer data.
+
+If this local wiki is unavailable, open the online support center from another device.
+
+[[support:first_steps|First steps]] | [[support:troubleshooting|Troubleshooting]]

@@ -1,0 +1,10 @@
+====== Local Mail (Optional Stage 11.4) ======
+**Mailpit** is a local mail capture/viewer used by supported applications and development workflows. It is **not** a public email delivery service and does not by itself send mail to external recipients.
+
+The proposed 1.0.36 Glass Agent stage is called `11.4-glass-agent-local-mail.sh`. It is **opt-in**, not part of the default installation. If included in your release, an administrator can install it with the documented `--mail` or `--steps 11.4` option.
+
+When present, the Mail tile or **/apps/mail/** can show captured messages. Access must remain private or otherwise explicitly protected, especially on a publicly reachable Lightsail instance.
+
+Do not use a local test inbox for password resets, billing communications, or real customer delivery without an approved external outbound-mail solution.
+
+[[support:applications|Applications]] | [[support:contact|Get help]]

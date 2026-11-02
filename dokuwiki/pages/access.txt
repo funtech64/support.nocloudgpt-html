@@ -1,0 +1,16 @@
+====== Accounts, Passwords, and Addresses ======
+Your Lightsail server may offer several separate accounts: AWS (cloud ownership), Linux (server access), Open WebUI (chat), DokuWiki (wiki), and optional application logins. These are **not** necessarily the same password.
+
+===== Find the right address =====
+  * **Chat:** your HTTPS server address, often the main host.
+  * **Apps:** the **/app/** page and, when installed, **/app/workspace/**.
+  * **DokuWiki:** **/wiki/** on the same HTTPS host.
+  * **Support pages:** open **/wiki/doku.php?id=support:start**.
+  * **Online documentation:** [[https://support.nocloudgpt.com/|support.nocloudgpt.com]].
+
+If the address does not load, check the server's status in your own AWS account, DNS configuration, and the allowed HTTPS port. Do not open model runtime or administrative ports to the public Internet to fix an access problem.
+
+===== Password safety =====
+Change initial passwords, use a password manager, and enable multi-factor authentication on your AWS account. Never put secrets into the wiki, a support ticket, or a screenshot. For lost access, contact the person who deployed your server; they can use the supported recovery workflow.
+
+[[support:troubleshooting|Troubleshooting]] | [[support:contact|Get help]]

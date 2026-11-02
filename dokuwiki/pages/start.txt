@@ -1,0 +1,26 @@
+====== NoCloudGPT Support — Start Here ======
+Welcome to the local help library for your **NoCloudGPT / terminal.glass** installation on AWS Lightsail.
+
+**First:** Open your normal Chat page, check your account access, and bookmark this wiki. Some tools are optional and will only appear when installed.
+
+===== Quick help =====
+  * [[support:first_steps|First 10 minutes after installation]]
+  * [[support:access|Sign in, passwords and addresses]]
+  * [[support:applications|Find your apps and wiki]]
+  * [[support:using_chat|Start chatting with AI]]
+  * [[support:models|Local models, Jets and cloud usage]]
+  * [[support:glass_agents|Glass Agents and automation]]
+  * [[support:mail|Local mail / Mailpit (optional)]]
+  * [[support:glossary|Terminology: what the names mean]]
+  * [[support:troubleshooting|Something isn't working]]
+  * [[support:backups|Backups and recovery]]
+  * [[support:updates|Updates and documentation sync]]
+  * [[support:privacy|Privacy and safe sharing]]
+  * [[support:contact|Request help]]
+
+===== Download all help pages =====
+{{:support:support-pages.zip|Download the DokuWiki documentation ZIP}}
+
+**Online support:** [[https://support.nocloudgpt.com/|support.nocloudgpt.com]]
+
+This is a public support guide, not a record of your instance's configuration. Your private passwords and license keys are never stored in these pages.

@@ -1,0 +1,13 @@
+====== Privacy, Security, and Responsible Use ======
+**Independent AI** emphasizes your control, but no feature should be assumed private merely because it has a local interface.
+
+  * Models labeled cloud-backed can send prompts or files to external providers.
+  * Keep AWS credentials, license keys, SSH keys and passwords out of the wiki.
+  * Use least-privilege permissions for agents, GitHub tokens and AWS users.
+  * Keep administrative ports and model APIs off the public Internet.
+  * Check backups, data residency, retention, and provider terms before processing sensitive information.
+  * The public support pages are not an appropriate place to store customer data.
+
+The help sync downloads **plain-text DokuWiki pages only** into the managed `support:` namespace. It is not authorized to execute programs published in the support repository.
+
+[[support:start|Support Home]] | [[support:contact|Get help]]
