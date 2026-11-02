@@ -18,8 +18,9 @@ Welcome to the local help library for your **NoCloudGPT / terminal.glass** insta
   * [[support:privacy|Privacy and safe sharing]]
   * [[support:contact|Request help]]
 
-===== Download all help pages =====
-{{:support:support-pages.zip|Download the DokuWiki documentation ZIP}}
+===== Download and browse the help pages =====
+[[https://support.nocloudgpt.com/docs/|Read or download each help page]]
+[[https://github.com/funtech64/support.nocloudgpt-html/archive/refs/heads/main.zip|Download the public support repository ZIP]]
 
 **Online support:** [[https://support.nocloudgpt.com/|support.nocloudgpt.com]]
 
